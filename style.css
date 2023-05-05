@@ -3,9 +3,14 @@
    padding: 0;
 }
 html{
-    overflow-x: hidden;
+  
+  overflow-x: hidden;
+  overflow-y: scroll;
     font-family: 'Kanit', sans-serif;
     scroll-behavior: smooth;
+}
+body{
+  overflow-x: hidden;
 }
 .navbar{
     width: 100vw;
@@ -140,8 +145,10 @@ header{
 @media screen and (max-width: 768px) {
   #menu-icon{
     display: block;
+    overflow-x: hidden;
   }
   .n2{
+    overflow-x: hidden;
     position: absolute;
     top: 100%;
     left:0;
